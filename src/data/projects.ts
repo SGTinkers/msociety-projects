@@ -84,7 +84,7 @@ export const projectsData: Project[] = [
     {
         title: "Pulau-rs",
         link: "https://github.com/zeon256/pulau-rs",
-        description: "A zero-cost abstraction library for memory-limited environments, using modern Rust features.",
+        description: "An allocation-free union-find library for bare metal environments written in Rust",
         nature: "Side Project",
         platform: "Library",
         thumbnail: "",
@@ -99,7 +99,7 @@ export const projectsData: Project[] = [
     {
         title: "StrengthReduction",
         link: "https://github.com/zeon256/StrengthReduction",
-        description: "A Rust library that optimizes division and modulo operations into faster bit shifts.",
+        description: "A C# library that optimizes division and modulo operations into faster bit shifts",
         nature: "Side Project",
         platform: "Library",
         thumbnail: "",
