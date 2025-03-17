@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onContributorClick, 
         <div className="rounded-lg border bg-card p-6 shadow-sm">
             <div className="space-y-4">
                 <div className="flex justify-between items-start">
-                    <h3 className="font-semibold">{project.title}</h3>
+                    <h3 className="font-semibold text-xl">{project.title}</h3>
                     <div className="flex gap-1 -space-x-1">
                         {project.contributors.map((contributor) => (
                             <button
@@ -48,9 +48,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onContributorClick, 
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-4 inline-block bg-black text-white font-medium py-2 px-4 rounded-md shadow-md hover:bg-gray-800 transition duration-300"
+                    className="mt-4 inline-block text-primary hover:underline"
                 >
-                    Visit Project
+                    Visit Project →
                 </a>
             </div>
         </div>
