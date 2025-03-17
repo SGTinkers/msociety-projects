@@ -50,7 +50,7 @@ export default function ProjectsDisplay() {
 
     return (
         <div className="space-y-8">
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-2">
                 <FilterDropdown
                     label="Platform"
                     options={platformOptions}

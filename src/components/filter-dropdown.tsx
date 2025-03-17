@@ -9,11 +9,11 @@ interface FilterDropdownProps {
     onChange: (value: string | null) => void
 }
 
-export default function FilterDropdown({ label, options, value, onChange }: FilterDropdownProps) {
+const FilterDropdown: React.FC<FilterDropdownProps> = ({ label, options, value, onChange }) => {
     return (
         <div>
-            <Select value={value || ""} onValueChange={(val) => onChange(val || null)}>
-                <SelectTrigger className="w-[180px]">
+            <Select value={value || "all"} onValueChange={(val) => onChange(val === "all" ? null : val)}>
+                <SelectTrigger className="w-[160px]">
                     <SelectValue placeholder={`${label}`} />
                 </SelectTrigger>
                 <SelectContent>
@@ -28,4 +28,6 @@ export default function FilterDropdown({ label, options, value, onChange }: Filt
         </div>
     )
 }
+
+export default FilterDropdown
 
