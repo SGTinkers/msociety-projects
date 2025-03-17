@@ -1,9 +1,8 @@
 "use client"
 
-import React from 'react'
-import Image from "next/image"
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import type { Project } from "@/types/project"
+import Image from "next/image"
+import React from 'react'
 
 interface ProjectCardProps {
     project: Project
