@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
         title: "PlayTours",
         link: "https://www.playtours.app/",
         description: "Create and run scavenger hunts for events, team-building, or self-guided tours with ease.",
-        nature: "Side Project",
+        nature: "Startup",
         platform: "Web App",
         thumbnail: "",
         contributors: [
