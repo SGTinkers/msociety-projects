@@ -59,8 +59,6 @@ export default function ProjectsDisplay() {
         }
     }
 
-    const hasAnyFilters = contributorFilter
-
     return (
         <div className="space-y-12">
             {/* Contributor Filter Section */}
