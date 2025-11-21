@@ -2,6 +2,21 @@ import type { Project } from "@/types/project"
 
 export const projectsData: Project[] = [
     {
+        title: "Haxiom",
+        link: "https://haxiom.io",
+        description: "A collaborative knowledge base that uses AI to automatically organize and deduplicate documentation across tools.",
+        nature: "Startup",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Budi",
+                avatar: "/dp/budi.jpg",
+                handle: "@zeon256",
+            },
+        ],
+    },
+    {
         title: "GoToAlias",
         link: "https://www.gotoalias.com",
         description: "Solve the 'what is where' problem using social media handles instead of coordinates or plus codes.",
@@ -20,7 +35,7 @@ export const projectsData: Project[] = [
         title: "Pak Cik Masjid Bot",
         link: "https://t.me/sgpakciksolatbot",
         description: "Get prayer times, mosque locations, and reminders from Pakcik Osman to ease your prayer journey.",
-        nature: "Side Project",
+        nature: "Community Project",
         platform: "Telegram Bot",
         thumbnail: "",
         contributors: [
@@ -35,7 +50,7 @@ export const projectsData: Project[] = [
         title: "Prayer Time Pro",
         link: "https://prayertime.pro/",
         description: "A free, ad-free app to schedule your day around prayers, now with mosque and musolla locator.",
-        nature: "Side Project",
+        nature: "Community Project",
         platform: "Mobile App",
         thumbnail: "",
         contributors: [
@@ -112,21 +127,6 @@ export const projectsData: Project[] = [
         ],
     },
     {
-        title: "Khatam Planner",
-        link: "https://khatam-planner.jariyah.app",
-        description: "A simple app to help you plan your Quran khatam around your daily prayers.",
-        nature: "Side Project",
-        platform: "Web App",
-        thumbnail: "",
-        contributors: [
-            {
-                name: "Tengku Hafidz",
-                avatar: "/dp/tengkuhafidz.jpg",
-                handle: "@tengkuhafidz",
-            },
-        ],
-    },
-    {
         title: "IntelliChat",
         link: "https://t.me/intellichat",
         description: "A Telegram bot that gives you quick access to ChatGPT with shortcut-based activation.",
@@ -145,7 +145,42 @@ export const projectsData: Project[] = [
         title: "Palestine Profile Pic Maker",
         link: "https://palestineprofile.jariyah.app",
         description: "Add a Palestine-themed frame to your profile picture to show your support.",
-        nature: "Side Project",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
+            },
+        ],
+    },
+    {
+        title: "Impactbit",
+        link: "https://impactbit.org",
+        description: "A recurring micro-donation platform with built-in social sharing to drive more donors.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
+            },
+            {
+                name: "Musa",
+                avatar: "/dp/musa.jpg",
+                handle: "Musa",
+            },
+        ],
+    },
+    {
+        title: "Khatam Planner",
+        link: "https://khatam-planner.jariyah.app",
+        description: "A simple app to help you plan your Quran khatam around your daily prayers.",
+        nature: "Community Project",
         platform: "Web App",
         thumbnail: "",
         contributors: [
@@ -160,7 +195,7 @@ export const projectsData: Project[] = [
         title: "Daily Istighfar",
         link: "https://daily-istighfar.vercel.app/",
         description: "Track your daily istighfar count, set goals, and maintain streaks—no sign-in required.",
-        nature: "Side Project",
+        nature: "Community Project",
         platform: "Web App",
         thumbnail: "",
         contributors: [
@@ -175,7 +210,7 @@ export const projectsData: Project[] = [
         title: "Passport Scanning App",
         link: "https://tinyurl.com/4e567k4d",
         description: "A mobile app that turns a phone into an MRZ passport scanner for travel agencies.",
-        nature: "Freelance",
+        nature: "Side Project",
         platform: "Mobile App",
         thumbnail: "",
         contributors: [
@@ -187,10 +222,10 @@ export const projectsData: Project[] = [
         ],
     },
     {
-        title: "Impactbit",
-        link: "https://impactbit.org",
-        description: "A recurring micro-donation platform with built-in social sharing to drive more donors.",
-        nature: "Freelance",
+        title: "Ecode Halal Checker",
+        link: "https://ecodehalalcheck.com/",
+        description: "Check the halal status of ECodes/additives with their details.",
+        nature: "Community Project",
         platform: "Web App",
         thumbnail: "",
         contributors: [
@@ -199,10 +234,50 @@ export const projectsData: Project[] = [
                 avatar: "/dp/tengkuhafidz.jpg",
                 handle: "@tengkuhafidz",
             },
+        ],
+    },
+    {
+        title: "Stack.je",
+        link: "https://stack.je",
+        description: "A mobile-first website builder that lets you create and edit web pages as easily as managing social media.",
+        nature: "Startup",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
             {
-                name: "Musa",
-                avatar: "/dp/musa.jpg",
-                handle: "Musa",
+                name: "Faruq Rasid",
+                avatar: "/dp/ruqqq.jpg",
+                handle: "@ruqqq",
+            },
+        ],
+    },
+    {
+        title: "Track.je",
+        link: "https://track.je",
+        description: "A no-code platform for service businesses to create custom tracking systems with real-time order status updates.",
+        nature: "Startup",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
+            },
+        ],
+    },
+    {
+        title: "Tahfiz Check",
+        link: "https://tahfizcheck.com",
+        description: "A digital platform to practice and assess Quran memorization with progress tracking.",
+        nature: "Community Project",
+        platform: "Web App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Tengku Hafidz",
+                avatar: "/dp/tengkuhafidz.jpg",
+                handle: "@tengkuhafidz",
             },
         ],
     },
@@ -220,22 +295,7 @@ export const projectsData: Project[] = [
                 handle: "@md_argv",
             },
         ],
-    },
-    {
-        title: "Ecode Halal Checker",
-        link: "https://ecodehalalcheck.com/",
-        description: "Check the halal status of ECodes/additives with their details.",
-        nature: "Side Project",
-        platform: "Web App",
-        thumbnail: "",
-        contributors: [
-            {
-                name: "Tengku Hafidz",
-                avatar: "/dp/tengkuhafidz.jpg",
-                handle: "@tengkuhafidz",
-            },
-        ],
-    },
+    }
 ]
 
 

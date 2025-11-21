@@ -21,7 +21,7 @@ export type Project = {
 export type ProjectNature =
     | "Side Project"
     | "Startup"
-    | "Freelance"
+    | "Community Project"
 
 export type ProjectPlatform =
     | "Web App"
