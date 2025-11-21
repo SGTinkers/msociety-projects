@@ -44,7 +44,7 @@ export default function Home() {
 
             {/* Description */}
             <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-200">
-              Discover tech projects from our members <span className="inline-block">from <a href="#community-project" className="text-green-400 hover:text-green-300 underline decoration-green-400/30 hover:decoration-green-400 underline-offset-4 transition-all duration-200">community projects</a> & <a href="#side-project" className="text-blue-400 hover:text-blue-300 underline decoration-blue-400/30 hover:decoration-blue-400 underline-offset-4 transition-all duration-200">side projects</a> to <a href="#startup" className="text-purple-400 hover:text-purple-300 underline decoration-purple-400/30 hover:decoration-purple-400 underline-offset-4 transition-all duration-200">startups</a>. ✨</span>
+              Discover tech projects from MSOCIETY members <span className="inline-block">from <a href="#community-project" className="text-green-400 hover:text-green-300 underline decoration-green-400/30 hover:decoration-green-400 underline-offset-4 transition-all duration-200">community projects</a> & <a href="#side-project" className="text-blue-400 hover:text-blue-300 underline decoration-blue-400/30 hover:decoration-blue-400 underline-offset-4 transition-all duration-200">side projects</a> to <a href="#startup" className="text-purple-400 hover:text-purple-300 underline decoration-purple-400/30 hover:decoration-purple-400 underline-offset-4 transition-all duration-200">startups</a>. ✨</span>
             </p>
 
             {/* Decorative Line */}
