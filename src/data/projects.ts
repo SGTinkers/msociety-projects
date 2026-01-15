@@ -4,7 +4,7 @@ export const projectsData: Project[] = [
     {
         title: "Quick Expense",
         link: "https://play.google.com/store/apps/details?id=sg.ruqqq.quickexpense",
-        description: "A privacy-first personal finance tracker with e2e encrypted family collaboration and offline-first sync.",
+        description: "A personal finance tracker with e2e encrypted family collaboration and offline-first sync.",
         nature: "Startup",
         platform: "Mobile App",
         thumbnail: "",
