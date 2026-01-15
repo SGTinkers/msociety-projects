@@ -2,6 +2,21 @@ import type { Project } from "@/types/project"
 
 export const projectsData: Project[] = [
     {
+        title: "Quick Expense",
+        link: "https://play.google.com/store/apps/details?id=sg.ruqqq.quickexpense",
+        description: "A privacy-first personal finance tracker with e2e encrypted family collaboration and offline-first sync.",
+        nature: "Startup",
+        platform: "Mobile App",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Faruq Rasid",
+                avatar: "/dp/ruqqq.jpg",
+                handle: "@ruqqq",
+            },
+        ],
+    },
+    {
         title: "Haxiom",
         link: "https://haxiom.io",
         description: "A collaborative knowledge base that uses AI to automatically organize and deduplicate documentation across tools.",
