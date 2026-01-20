@@ -2,6 +2,21 @@ import type { Project } from "@/types/project"
 
 export const projectsData: Project[] = [
     {
+        title: "Cashtrail",
+        link: "https://t.me/CashTrailBot",
+        description: "A Telegram bot to track expenses quickly without spreadsheets—fast add or guided step-by-step flow.",
+        nature: "Side Project",
+        platform: "Telegram Bot",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Muhammad Harun",
+                avatar: "/dp/harun.jpg",
+                handle: "@@muhdharun",
+            },
+        ],
+    },
+    {
         title: "Quick Expense",
         link: "https://play.google.com/store/apps/details?id=sg.ruqqq.quickexpense",
         description: "A personal finance tracker with e2e encrypted family collaboration and offline-first sync.",
@@ -251,6 +266,7 @@ export const projectsData: Project[] = [
             },
         ],
     },
+
     {
         title: "Stack.je",
         link: "https://stack.je",
@@ -311,21 +327,6 @@ export const projectsData: Project[] = [
             },
         ],
     },
-    {
-        title: "Cashtrail",
-        link: "https://t.me/CashTrailBot",
-        description: "A Telegram bot to track expenses quickly without spreadsheets—fast add or guided step-by-step flow.",
-        nature: "Side Project",
-        platform: "Telegram Bot",
-        thumbnail: "",
-        contributors: [
-            {
-                name: "Muhammad Harun",
-                avatar: "/dp/harun.jpg",
-                handle: "@@muhdharun",
-            },
-        ],
-    }
 ]
 
 
