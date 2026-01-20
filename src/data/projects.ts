@@ -310,6 +310,21 @@ export const projectsData: Project[] = [
                 handle: "@md_argv",
             },
         ],
+    },
+    {
+        title: "Cashtrail",
+        link: "https://t.me/CashTrailBot",
+        description: "A Telegram bot to track expenses quickly without spreadsheets—fast add or guided step-by-step flow.",
+        nature: "Side Project",
+        platform: "Telegram Bot",
+        thumbnail: "",
+        contributors: [
+            {
+                name: "Muhammad Harun",
+                avatar: "/dp/harun.jpg",
+                handle: "@@muhdharun",
+            },
+        ],
     }
 ]
 
